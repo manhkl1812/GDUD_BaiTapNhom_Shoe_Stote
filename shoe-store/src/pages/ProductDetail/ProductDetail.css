@@ -1,0 +1,378 @@
+/* ── Layout ── */
+.pd-page {
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+/* ── Not found ── */
+.pd-not-found {
+  text-align: center;
+  padding: 80px 20px;
+}
+.pd-not-found__title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.pd-not-found__text {
+  color: #888;
+  margin-bottom: 24px;
+}
+.pd-not-found__link {
+  padding: 10px 24px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ── Breadcrumb wrapper ── */
+.pd-breadcrumb {
+  font-size: 13px;
+}
+
+/* ── Image gallery ── */
+.pd-main-img {
+  position: relative;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  background-color: #fafafa;
+}
+.pd-main-img__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.pd-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+  z-index: 2;
+}
+.pd-arrow--left  { left: 8px; }
+.pd-arrow--right { right: 8px; }
+
+.pd-thumbnails {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  align-items: center;
+}
+.pd-thumb {
+  padding: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  flex-shrink: 0;
+  background: none;
+  border: 1px solid #ddd;
+  transition: border-color 0.15s;
+}
+.pd-thumb--active {
+  border: 2px solid #111;
+}
+.pd-thumb__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Product info ── */
+.pd-name {
+  font-size: clamp(18px, 2.5vw, 24px);
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+.pd-sku {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+/* Price */
+.pd-price {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.pd-price__sale {
+  font-size: 22px;
+  font-weight: 700;
+  color: #d0021b;
+}
+.pd-price__original {
+  font-size: 15px;
+  color: #aaa;
+  text-decoration: line-through;
+}
+.pd-price__badge {
+  background: #d0021b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 3px;
+}
+
+/* Section label */
+.pd-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Size */
+.pd-sizes {
+  margin-bottom: 16px;
+}
+.pd-sizes__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pd-size-btn {
+  min-width: 48px;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #555;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.pd-size-btn--selected {
+  border: 2px solid #111;
+  color: #111;
+  font-weight: 700;
+}
+.pd-size-btn--out {
+  background-color: #f5f5f5;
+  color: #ccc;
+  cursor: not-allowed;
+  text-decoration: line-through;
+}
+
+/* Color */
+.pd-colors {
+  margin-bottom: 16px;
+}
+.pd-colors__list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pd-color-btn {
+  padding: 6px 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #666;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.pd-color-btn--selected {
+  border: 2px solid #111;
+  color: #111;
+  font-weight: 700;
+}
+
+/* Quantity */
+.pd-qty {
+  margin-bottom: 20px;
+}
+.pd-qty__control {
+  display: inline-flex;
+  border: 1px solid #ccc;
+}
+.pd-qty__btn {
+  width: 36px;
+  height: 40px;
+  border: none;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+.pd-qty__value {
+  width: 56px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #fff;
+  color: #111;
+}
+
+/* Action buttons */
+.pd-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 420px;
+}
+
+/* Mô tả toggle */
+.pd-desc-toggle {
+  margin-top: 24px;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 16px;
+}
+.pd-desc-toggle__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.pd-desc-toggle__title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+}
+.pd-desc-toggle__icon {
+  font-size: 20px;
+  color: #555;
+  line-height: 1;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+.pd-desc-toggle__icon--open {
+  transform: rotate(45deg);
+}
+.pd-desc-toggle__body {
+  margin-top: 12px;
+  padding-bottom: 4px;
+}
+.pd-desc-toggle__text {
+  font-size: 14px;
+  color: #444;
+  margin: 0;
+  line-height: 1.7;
+}
+.pd-desc-toggle__more {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ── Related products ── */
+.pd-related__title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+/* ── Bottom sections ── */
+.pd-section {
+  border-top: 1px solid #e8e8e8;
+  padding-top: 20px;
+  margin-bottom: 24px;
+}
+.pd-section--last {
+  margin-bottom: 32px;
+}
+.pd-section__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #111;
+}
+.pd-section__desc {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Spec table */
+.pd-spec-table {
+  font-size: 14px;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 480px;
+}
+.pd-spec-table td {
+  padding: 5px 0;
+  vertical-align: top;
+}
+.pd-spec-table__key {
+  color: #555;
+  font-weight: 500;
+  width: 140px;
+}
+.pd-spec-table__val {
+  color: #111;
+}
+
+/* Rating table */
+.pd-rating-table {
+  font-size: 14px;
+  border-collapse: collapse;
+}
+.pd-rating-table td {
+  padding: 4px 0;
+}
+.pd-rating-table__label {
+  color: #555;
+  width: 140px;
+}
+.pd-rating-table__val {
+  color: #111;
+  font-weight: 500;
+}
+
+.pd-review-btn {
+  margin-top: 12px;
+  padding: 6px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  color: #333;
+}

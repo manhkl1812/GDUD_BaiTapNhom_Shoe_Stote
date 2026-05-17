@@ -1,0 +1,16 @@
+.dropdown-control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 300px;
+}
+
+.dropdown-label {
+  font-weight: 500;
+}
+
+.dropdown-select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
