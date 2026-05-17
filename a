@@ -1,0 +1,308 @@
+[33mcommit 426e2eacc41e5f886b5d835e9d54a707038a3151[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mviet[m[33m)[m
+Merge: 8c7dab7 c8ff7d0
+Author: Cozy <139521084+lttboy25@users.noreply.github.com>
+Date:   Fri Mar 20 08:57:53 2026 +0700
+
+    Merge pull request #6 from lttboy25/tung
+    
+    feat: add Home page and MainLayout
+
+[33mcommit c8ff7d0f3eb1cb3f52ae4fd541f6b31bd7c7b664[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Fri Mar 20 08:57:20 2026 +0700
+
+    feat: add router dom in header
+
+[33mcommit 52b615d344c89725f87fa550bb2313eb10e4175b[m
+Merge: 7728792 5500b5c
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Fri Mar 20 00:17:47 2026 +0700
+
+    feat: add Home page and MainLayout
+    
+    - create Home page UI
+    - implement MainLayout (header, footer, layout structure)
+    - integrate routing with Home page
+
+[33mcommit 77287928349d7b3f1fe8c4855da6278d71a826d3[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Fri Mar 20 00:12:41 2026 +0700
+
+    temp
+
+[33mcommit 898883e110ad23aceeb3db78b6cf2f0ab068ae37[m
+Merge: 9116bbb 8c7dab7
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Fri Mar 20 00:03:33 2026 +0700
+
+    Merge branch 'main' of https://github.com/lttboy25/shoe-store into tung
+
+[33mcommit 9116bbbc646e438fd3664532dec66ce5432439a9[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Thu Mar 19 20:58:56 2026 +0700
+
+    add more data
+
+[33mcommit 6230bc2be0feb3450d4e0f20ca620f3ef9b9cb22[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Thu Mar 19 16:27:49 2026 +0700
+
+    merge product tu (con loi hinh anh)
+
+[33mcommit 160896b465bab5b6997c7423bc16a6e778767cf3[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Thu Mar 19 11:28:43 2026 +0700
+
+    feat(product): add Puma products and update product card
+    
+    - add new Puma product dataset (prod_002 → prod_010)
+    - update product card UI to support new data structure
+
+[33mcommit 8c7dab78f162683e49b270c5d9173bf91dfbe85a[m
+Merge: e57158e 732f423
+Author: Cozy <139521084+lttboy25@users.noreply.github.com>
+Date:   Tue Feb 10 11:02:30 2026 +0700
+
+    Merge pull request #5 from lttboy25/tung
+    
+    format file product data
+
+[33mcommit 732f42379b54cc6640aeb01e1b9d342141c98cac[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Tue Feb 10 11:01:54 2026 +0700
+
+    format file product data
+
+[33mcommit 5500b5cd4cf6baac4bf1efc8c2d86639d30f5f04[m
+Author: Thanh Truong <tranthanhtruong2k5@gmail.com>
+Date:   Mon Feb 9 11:47:31 2026 +0700
+
+    feat(Footer, CaregoryBannerSection): thêm footer và caregory banner section
+
+[33mcommit e57158e9d81fbac7453710d49e149952c0fbdecf[m
+Author: tu <23676851.tu@studen.edu.iuh.vn>
+Date:   Mon Feb 9 10:47:07 2026 +0700
+
+    ProductQuantity and ProductSize
+
+[33mcommit 211adc2563a257eb3e27c4eecc132780602676f1[m
+Merge: b0655ae d38759b
+Author: Cozy <139521084+lttboy25@users.noreply.github.com>
+Date:   Mon Feb 9 09:12:25 2026 +0700
+
+    Merge pull request #4 from lttboy25/backup
+    
+    Merge branch Tu: Feat(Quantity, Size Selector): wait to update
+
+[33mcommit d38759b80e6a3edd93e445bb4d13a47dc3ddd927[m
+Merge: c3fde42 3de1786
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Mon Feb 9 09:11:32 2026 +0700
+
+    merge branch Tu
+    Feat(SizeSelector, Quantity): create quantity select and size selector in branch Tu
+
+[33mcommit c3fde42f56f8e452f520100418206b8655a8a97f[m
+Merge: 471d96e b0655ae
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Mon Feb 9 08:56:02 2026 +0700
+
+    merge main 09022026 grid, card product
+
+[33mcommit b0655aead3df4d01c543b1547b01a0748cca4c89[m
+Merge: f69e94c a7f1e9b
+Author: Cozy <139521084+lttboy25@users.noreply.github.com>
+Date:   Mon Feb 9 08:54:09 2026 +0700
+
+    Merge pull request #3 from lttboy25/tung
+    
+    feat(productCard, productGrid): create Grid and update Card
+
+[33mcommit a7f1e9b09f60c206d0ccc3f0f16ac2ec6706db04[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Mon Feb 9 08:53:19 2026 +0700
+
+    feat(productCard, productGrid): create Grid and update Card
+
+[33mcommit 3de1786d3ea49688476f4ca75bcc4a9574de3fff[m
+Author: tu <23676851.tu@studen.edu.iuh.vn>
+Date:   Sun Feb 8 10:18:39 2026 +0700
+
+    Add SizeSelector.jsx, QuantitySelector.jsx and About.jsx
+
+[33mcommit f69e94c559d0550c483e60c73c3f3049a8ea9c35[m
+Merge: 83d2c58 1bd8833
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Sat Feb 7 23:35:44 2026 +0700
+
+    merge branch: tuyen(loginForm, registerForm), viet(header, homehero)
+
+[33mcommit 471d96ed859e65932970520a8eafd78c75ae3c20[m
+Merge: 9f5dd98 4a9c8a2
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Sat Feb 7 23:27:02 2026 +0700
+
+    backup before merge main 07022026
+
+[33mcommit 83d2c5874b4c5fab39b05e400fe6537fe167a644[m
+Author: nguyenctuyen29082005 <nguyenctuyen29082005@gmail.com>
+Date:   Sat Feb 7 20:54:42 2026 +0700
+
+    chore: remove: LoginForm.css
+
+[33mcommit e1b681d5246200d5e8c69c262e3142f9e7a36820[m
+Author: nguyenctuyen29082005 <nguyenctuyen29082005@gmail.com>
+Date:   Sat Feb 7 20:45:10 2026 +0700
+
+    feat: add LoginForm.jsx, RegisterForm.jsx
+
+[33mcommit 1bd88336b162426ba1628e469e7648de48b76725[m
+Author: ngviet291 <vietnguyen29105@gmail.com>
+Date:   Fri Feb 6 20:48:53 2026 +0700
+
+    Feat(Header,HomeHero): Them giao dien Header,HomeHero
+
+[33mcommit 4a9c8a27328c0b472342dedea84edceb105a7152[m
+Author: lttboy25 <esharkmail@gmail.com>
+Date:   Wed Feb 4 11:48:20 2026 +0700
+
+    feat(components/product): add ProductCard, add data/product.js
+
+[33mcommit 4900bced073fdc54a6f82587b61ff49300ecf8b7[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Tue Feb 3 18:01:56 2026 +0700
+
+    merge branch tuyen
+
+[33mcommit 27e955bcd504ea0f3fdb102b323f250a07d23e27[m
+Author: nguyenctuyen29082005 <nguyenctuyen29082005@gmail.com>
+Date:   Sat Jan 31 23:13:02 2026 +0700
+
+    fit: Dropdown.jsx
+
+[33mcommit b25035fc0c7f2b10ddfb8a04396c328bfcb1bb32[m
+Author: nguyenctuyen29082005 <nguyenctuyen29082005@gmail.com>
+Date:   Sat Jan 31 22:51:26 2026 +0700
+
+    feat: add Dropdown.jsx, Dropdown.css, Promotion.jsx
+
+[33mcommit a5c0fef5723c79184e2644c2ab6ce6d335654b42[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Sat Jan 31 21:54:32 2026 +0700
+
+    feat(section) add new section maybe use
+
+[33mcommit 00e21511da28e1fecf04fa76e0db902b0dd37df5[m
+Merge: cf273e2 0eccbe2
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Sat Jan 31 21:11:28 2026 +0700
+
+    merge branch truong, tu: add(popup, rating, checkbox, breadcrumb)
+
+[33mcommit cf273e200dc5c7b7ef06871e7168202f2c93cd43[m
+Merge: 00467d5 3c2aacf
+Author: Thanh Truong <tranthanhtruong2k5@gmail.com>
+Date:   Thu Jan 29 13:46:21 2026 +0700
+
+    feat(breakcrumb, checkout): add breakcrumb and check out component
+
+[33mcommit 00467d5ffb0bf4ecb2e3cbaf94f5972600095b81[m
+Author: Thanh Truong <tranthanhtruong2k5@gmail.com>
+Date:   Thu Jan 29 13:23:27 2026 +0700
+
+    feat(breakcrumb, checkout): add breakcrumb and check out component
+
+[33mcommit 0eccbe23f9992f49a15fce350f32c8587f374fd8[m
+Author: tu <23676851.tu@studen.edu.iuh.vn>
+Date:   Wed Jan 28 21:35:29 2026 +0700
+
+    Add Popup.jsx and Rating.jsx
+
+[33mcommit 9f5dd98b2e8d7fe6e2120612db88309f6c88d5cb[m
+Merge: 58def6e 3c2aacf
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Wed Jan 28 20:39:23 2026 +0700
+
+    merge main
+
+[33mcommit 3c2aacffdb24a43f895d0d6098bc3e26c82dc865[m
+Merge: 019894c 9a02537
+Author: Cozy <139521084+lttboy25@users.noreply.github.com>
+Date:   Wed Jan 28 20:37:38 2026 +0700
+
+    Merge pull request #2 from lttboy25/tung
+    
+    merge code from tung, viet branch to main
+
+[33mcommit 9a025370f1cec8415b6fbe5514599ca297bdfd2e[m
+Merge: ea46a54 52510df
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Wed Jan 28 20:36:25 2026 +0700
+
+    feat(button, input): add button and input
+
+[33mcommit ea46a547fcb77c8ddaca474754e8a54ee8bfed47[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Wed Jan 28 20:22:05 2026 +0700
+
+    style(spinner): change color to black spinner, fix(modal): back-drop
+
+[33mcommit 58def6efdb12c6731101ff98cb30d9f68160b04b[m
+Merge: 52510df d91a5b8
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Wed Jan 28 13:25:39 2026 +0700
+
+    backup 28012026
+
+[33mcommit d91a5b8e87d3720993254b59073caf42856cc44c[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Wed Jan 28 13:19:24 2026 +0700
+
+    temp
+
+[33mcommit 52510df61bd414c046d35fa5123ab72d17450f65[m[33m ([m[1;31morigin/viet[m[33m)[m
+Author: ngviet291 <vietnguyen29105@gmail.com>
+Date:   Wed Jan 28 12:49:13 2026 +0700
+
+    Fix(common): Fix Input.jsx, Button.jsx
+
+[33mcommit 71e83cde7d0f9a486cda1c36481566b5867eaa3e[m[33m ([m[1;32mmain[m[33m)[m
+Author: ngviet291 <vietnguyen29105@gmail.com>
+Date:   Tue Jan 27 17:46:58 2026 +0700
+
+    Fix(common,styles): Fix  Input.jsx, Button.css, Input.css
+
+[33mcommit d184fc1c6302ff19141199e9bef3910e3bf908c9[m
+Author: ngviet291 <vietnguyen29105@gmail.com>
+Date:   Tue Jan 27 17:42:22 2026 +0700
+
+    Feat(common,styles): Add Button.jsx, Input.jsx, Button.css, Input.css
+
+[33mcommit 019894c43b6a64100c77664f9a1404218622b47a[m
+Merge: 71749ed 7f76e91
+Author: Cozy <139521084+lttboy25@users.noreply.github.com>
+Date:   Tue Jan 27 14:04:17 2026 +0700
+
+    Merge pull request #1 from lttboy25/tung
+    
+    feat(Spinner): add spinner and test import boostrap
+
+[33mcommit 7f76e91ae8990ac4cd4f86a71112bbebd895a83d[m[33m ([m[1;31morigin/tung[m[33m)[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Tue Jan 27 14:03:46 2026 +0700
+
+    feat(Spinner): add spinner and test import boostrap
+
+[33mcommit 71749ed7e287492da72f0ad83d3c2c055702b0e9[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Tue Jan 27 13:56:56 2026 +0700
+
+    feat(components/common): add Standalone components
+    docs(README): add How to write proper Git commits
+    chore(deps): add boostrap
+
+[33mcommit 7161c6549697d8dc7dbfc2c7e49614f96c370891[m[33m ([m[1;31morigin/tuyen[m[33m, [m[1;31morigin/tu[m[33m, [m[1;31morigin/truong[m[33m, [m[1;31morigin/backup[m[33m)[m
+Author: lttboy25 <139521084+lttboy25@users.noreply.github.com>
+Date:   Mon Jan 19 20:51:52 2026 +0700
+
+    first commit

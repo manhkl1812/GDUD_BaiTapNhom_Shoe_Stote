@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- White background -->
+  <rect width="200" height="200" fill="white"/>
+  
+  <!-- QR Code pattern (simplified placeholder) -->
+  <g fill="black">
+    <!-- Top-left position marker -->
+    <rect x="0" y="0" width="50" height="50"/>
+    <rect x="7" y="7" width="36" height="36" fill="white"/>
+    <rect x="14" y="14" width="22" height="22"/>
+    
+    <!-- Top-right position marker -->
+    <rect x="150" y="0" width="50" height="50"/>
+    <rect x="157" y="7" width="36" height="36" fill="white"/>
+    <rect x="164" y="14" width="22" height="22"/>
+    
+    <!-- Bottom-left position marker -->
+    <rect x="0" y="150" width="50" height="50"/>
+    <rect x="7" y="157" width="36" height="36" fill="white"/>
+    <rect x="14" y="164" width="22" height="22"/>
+    
+    <!-- Data pattern -->
+    <rect x="60" y="10" width="10" height="10"/>
+    <rect x="80" y="10" width="10" height="10"/>
+    <rect x="100" y="10" width="10" height="10"/>
+    <rect x="120" y="10" width="10" height="10"/>
+    
+    <rect x="60" y="30" width="10" height="10"/>
+    <rect x="100" y="30" width="10" height="10"/>
+    <rect x="120" y="30" width="10" height="10"/>
+    
+    <rect x="80" y="50" width="10" height="10"/>
+    <rect x="100" y="50" width="10" height="10"/>
+    
+    <rect x="60" y="70" width="10" height="10"/>
+    <rect x="80" y="70" width="10" height="10"/>
+    <rect x="120" y="70" width="10" height="10"/>
+    
+    <rect x="100" y="90" width="10" height="10"/>
+    <rect x="120" y="90" width="10" height="10"/>
+    
+    <rect x="60" y="110" width="10" height="10"/>
+    <rect x="80" y="110" width="10" height="10"/>
+    <rect x="100" y="110" width="10" height="10"/>
+    
+    <rect x="60" y="130" width="10" height="10"/>
+    <rect x="100" y="130" width="10" height="10"/>
+    <rect x="120" y="130" width="10" height="10"/>
+    
+    <!-- Timing patterns -->
+    <rect x="50" y="50" width="10" height="10"/>
+    <rect x="70" y="50" width="10" height="10"/>
+    <rect x="90" y="50" width="10" height="10"/>
+    <rect x="110" y="50" width="10" height="10"/>
+  </g>
+</svg>

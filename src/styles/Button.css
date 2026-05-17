@@ -1,0 +1,72 @@
+.button-control {
+  height: 36px;
+  padding: 0px 16px;
+  border-radius: 8px;
+  border: 1px solid #0f172a;
+  background: #0f172a;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Dark variant (mặc định) */
+.button-dark {
+  background: #0f172a;
+  border-color: #0f172a;
+  color: #ffffff;
+}
+
+.button-dark:hover {
+  background: #111827;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.button-dark:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Light variant (trắng) */
+.button-light {
+  background: #ffffff;
+  border-color: #d0d5dd;
+  color: #0f172a;
+}
+
+.button-light:hover {
+  background: #f8fafc;
+  border-color: #94a3b8;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+}
+
+.button-light:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* Disabled state */
+.button-control:disabled {
+  background: #e2e8f0;
+  border-color: #e2e8f0;
+  color: #94a3b8;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Icon trong button */
+.button-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+
